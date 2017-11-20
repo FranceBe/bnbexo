@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stylebnb.css" />
+        <title>Locations de vacances, logements, expériences et lieux - AirBnb </title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <svg viewBox="0 0 1000 1000" role="presentation" aria-hidden="true" focusable="false" style="height:1em;width:1em;display:block;fill:currentColor;" data-reactid="25">
+                    <path d="M499.3 736.7c-51-64-81-120.1-91-168.1-10-39-6-70 11-93 18-27 45-40 80-40s62 13 80 40c17 23 21 54 11 93-11 49-41 105-91 168.1zm362.2 43c-7 47-39 86-83 105-85 37-169.1-22-241.1-102 119.1-149.1 141.1-265.1 90-340.2-30-43-73-64-128.1-64-111 0-172.1 94-148.1 203.1 14 59 51 126.1 110 201.1-37 41-72 70-103 88-24 13-47 21-69 23-101 15-180.1-83-144.1-184.1 5-13 15-37 32-74l1-2c55-120.1 122.1-256.1 199.1-407.2l2-5 22-42c17-31 24-45 51-62 13-8 29-12 47-12 36 0 64 21 76 38 6 9 13 21 22 36l21 41 3 6c77 151.1 144.1 287.1 199.1 407.2l1 1 20 46 12 29c9.2 23.1 11.2 46.1 8.2 70.1zm46-90.1c-7-22-19-48-34-79v-1c-71-151.1-137.1-287.1-200.1-409.2l-4-6c-45-92-77-147.1-170.1-147.1-92 0-131.1 64-171.1 147.1l-3 6c-63 122.1-129.1 258.1-200.1 409.2v2l-21 46c-8 19-12 29-13 32-51 140.1 54 263.1 181.1 263.1 1 0 5 0 10-1h14c66-8 134.1-50 203.1-125.1 69 75 137.1 117.1 203.1 125.1h14c5 1 9 1 10 1 127.1.1 232.1-123 181.1-263.1z" data-reactid="26"></path>
+                </svg>
+            </div>
+        </header>
+        <section class="prez">
+            <span> Airbnb </span>
+            <div class="textprez"> Reservez des logements uniques et vivez là-bas comme des locaux. </div>
+        </section>
+        <div class="search">
+            <form method="post" action="traitement.php">
+                <p>
+                    <input type="search" name="search" id="search" placeholder="Essayez Budapest" />
+                </p>
+            </form>
+        </div>
+        <section class="explore">
+            <h3> Explorer Airbnb </h3>
+            <div class="scroller">
+                <div class="photos">
+                    <div class=image>
+                        <img class="pic" src="https://a0.muscache.com/ac/pictures/8b7519ec-2c82-4c09-8233-fd4d2715bbf9.jpg?interpolation=lanczos-none&amp;size=large&amp;output-format=jpg&amp;output-quality=70&quot" alt="photo de chambre" >
+                        <div class="legend">
+                            <h4> Logements </h4>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img class="pic" src="https://a0.muscache.com/ac/pictures/d3811ff7-cc34-471b-8aee-b0d613db0052.jpg?interpolation=lanczos-none&amp;size=large&amp;output-format=jpg&amp;output-quality=70&quot" alt="photo de canoe" >
+                        <div class="legend">
+                            <h4> Experiences </h4>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img class="pic" src="https://a0.muscache.com/ac/pictures/da2d8e97-90b7-409f-94ac-5ab0327c289b.jpg?interpolation=lanczos-none&amp;size=large&amp;output-format=jpg&amp;output-quality=70&quo" alt="photo de restaurant" >
+                        <div class="legend">
+                            <h4> Restaurants </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="xp">
+            <h3> Experiences </h3>
+            <div class="scrollermid">
+                <div class="photomid">
+                    <div class="imagemid">
+                        <img class="picmid" src="https://a0.muscache.com/im/pictures/cb14d34d-65cf-401d-ba7f-585ec37b43ef.jpg?aki_policy=large&quot" alt="photo promenade">
+                        <div class="legendmid"> Promenade historique </div>
+                        <div class="descriptmid"> Raise a glass to Prohibition </div>
+                        <div class="pricemid"> 31€ par personne </div>
+                        <div class="notationmid"> <span class="stars">★★★★★</span> 39 </div>
+                    </div>
+                </div>
+                <div class="photomid">
+                    <div class="imagemid">
+                        <img class="picmid" src="http://gentyusa.blog.lemonde.fr/files/2010/04/titicaca-homme-a-velo-blog.1271548654.jpg" alt="photo velo">
+                        <div class="legendmid"> Escapade à vélo </div>
+                        <div class="descriptmid"> Taste of Rome via retro bike </div>
+                        <div class="pricemid"> 59€ par personne </div>
+                        <div class="notationmid"> <span class="stars">★★★★★</span> 48 </div>
+                    </div>
+                </div>
+                <div class="photomid">
+                    <div class="imagemid">
+                        <img class="picmid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRigdA2AAEZSOmR9muqQ9izuJSHND619uLfBzzxaLnKMked3NWz-Q" alt="photo concert">
+                        <div class="legendmid"> Concert- Londres </div>
+                        <div class="descriptmid"> Incredible jazz in chic warehouse </div>
+                        <div class="pricemid"> 18€ par personne </div>
+                        <div class="notationmid"> <span class="stars">★★★★★</span> 9 </div>
+                    </div>
+                </div>
+                <div class="photomid">
+                    <div class="imagemid">
+                        <img class="picmid" src="http://cdt29.media.tourinsoft.com/upload/F63E9E24-09B0-443D-BFDE-6BBCF6A2A3C7/randonnee-en-famille-auremar-8.jpg" alt="photo randonnee">
+                        <div class="legendmid"> Randonnée guidée </div>
+                        <div class="descriptmid"> Blue Mountains day trip - Escape the City </div>
+                        <div class="pricemid"> 86€ par personne </div>
+                        <div class="notationmid"> <span class="stars">★★★★★</span> 46 </div>
+                    </div>
+                </div>
+                <div class="photomid">
+                    <div class="imagemid">
+                        <img class="picmid" src="http://s.plurielles.fr/mmdia/i/87/9/pauline-chanteuse-10407879vgviv.jpg?v=1" alt="photo concert">
+                        <div class="legendmid"> Concert - Londres </div>
+                        <div class="descriptmid"> Great live jazz, beautiful setting. </div>
+                        <div class="pricemid"> 18€ par personne </div>
+                        <div class="notationmid"> <span class="stars">★★★★★</span> 120 </div>
+                    </div>
+                </div>
+                <div class="photomid">
+                    <div class="imagemid">
+                        <img class="picmid" src="http://levendangeur.fr/wp-content/uploads/2015/12/biere.jpg" alt="photo biere">
+                        <div class="legendmid"> Cuisine et boissons - Berlin </div>
+                        <div class="descriptmid">Craft beer Tour in Berlins less known, thriving district </div>
+                        <div class="pricemid"> 35€ par personne </div>
+                        <div class="notationmid"> <span class="stars">★★★★★</span> 16 </div>
+                    </div>
+                </div>
+            </div>
+        </section>
