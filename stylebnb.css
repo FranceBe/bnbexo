@@ -159,7 +159,8 @@ h4
 {
   display: flex;
   flex-direction: row;
-  width: 142px;
+
+  padding-right: 18px;
 
 
 }
@@ -170,7 +171,7 @@ h4
   padding-right: 6px;
   padding-bottom: 30px;
   border-radius: 10px;
-  padding-right: 18px;
+  padding-right: 6px;
 
 }
 .picmid
@@ -199,7 +200,8 @@ h4
   text-overflow: ellipsis;
   white-space: wrap;
   overflow: hidden;
-  height: 44px;
+  max-height: 44px;
+
 }
 .pricemid
 {
@@ -214,4 +216,69 @@ h4
 {
   color: blue;
   font-size: 12px;
+}
+
+.piclog
+{
+  height: 118px;
+  width: 177px;
+  border-radius: 3px;
+}
+
+.descriptlog
+{
+  font-size: 19px;
+  line-height: 22px;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: wrap;
+  overflow: hidden;
+  height: 44px;
+}
+.pricelog
+{
+  font-size: 15px;
+  font-weight: 300;
+}
+.notationlog
+{
+  font-size: 12px;
+}
+.legendlog
+{
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  color: rgb(87, 37, 51);
+}
+
+.imagelog
+{
+  width: 177px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  padding-right: 6px;
+
+}
+
+.scrollerlog
+{
+  padding-left: 18px;
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+
+}
+.bloclog
+{
+  display: flex;
+  flex-direction: row;
+  padding-right: 18px;
+
 }
