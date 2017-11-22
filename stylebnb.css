@@ -282,3 +282,48 @@ h4
   padding-right: 18px;
 
 }
+.picdestination
+{
+  height: 100%;
+}
+.crop
+{
+  height: 124px;
+  width: 83px;
+  overflow: hidden;
+  border-radius: 3px;
+}
+.legenddestination
+{
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: #484848;
+}
+.scrollerdestination
+{
+  padding-left: 18px;
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+
+}
+.blocdestination
+{
+  display: flex;
+  flex-direction: row;
+  padding-right: 18px;
+
+}
+.imagedestination
+{
+  width: 83px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  padding-right: 6px;
+
+
+}
