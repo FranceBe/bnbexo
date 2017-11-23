@@ -27,7 +27,13 @@ header
   height: 64px;
   display: flex;
 }
-
+.mepprez
+{
+  height: 296px;
+  display: flex;
+  align-items: flex-end;
+  padding-top: 18px;
+}
 .prez
 {
   display: flex;
@@ -233,7 +239,7 @@ h4
   text-overflow: ellipsis;
   white-space: wrap;
   overflow: hidden;
-  height: 44px;
+  max-height: 44px;
 }
 .pricelog
 {
@@ -282,6 +288,23 @@ h4
   padding-right: 18px;
 
 }
+
+.imagetabl
+{
+  width: 130px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  padding-right: 6px;
+
+}
+.pictabl
+{
+  height: 87px;
+  width: 130px;
+  border-radius: 3px;
+}
 .picdestination
 {
   height: 100%;
@@ -325,5 +348,83 @@ h4
   border-radius: 10px;
   padding-right: 6px;
 
-
+}
+@media (min-width : 840px)
+{
+span
+{
+  font-size: 48px;
+}
+h3
+{
+  font-size: 28px;
+}
+.textprez
+{
+  font-size: 48px;
+  line-height: 56px;
+}
+.prez
+{
+  padding-top: 48px;
+}
+.image
+{
+  display: flex;
+  flex-direction: row;
+  width: 251px;
+}
+.pic
+{
+  height: 72px;
+  width: 96px;
+}
+.photos
+{
+  display: flex;
+  min-width: 840px;
+  justify-content: space-around;
+}
+.picmid
+{
+  height: 124px;
+  width: 186px;
+}
+.imagemid
+{
+  width: 186px;
+}
+.imagelog
+{
+  width: 388px;
+}
+.piclog
+{
+  width: 388px;
+  height: 259px;
+}
+.imagetabl
+{
+  width: 193px;
+}
+.pictabl
+{
+  width: 193px;
+  height: 129px;
+}
+.crop
+{
+  height: 238px;
+  width: 159px;
+  overflow: hidden;
+  border-radius: 3px;
+}
+.imagedestination
+{
+  width: 159px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  padding-right: 6px;
 }
